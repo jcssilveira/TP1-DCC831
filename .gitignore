@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv
+.venv/
+env/
+venv/
+
+# Heavy datasets and models
+data/
+models/
+
+# Complex Markov version & tools
+markov_composer.py
+outputs_complex/
+
+# Paper & LaTeX
+paper/
+latex/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# Audio outputs
+# Permite apenas os áudios gerados pelo modelo simples na pasta outputs/
+*.wav
+!outputs/*.wav
